@@ -4,7 +4,7 @@
 ##### 2. To train entity composite model we use python3 main_ori_with_type.py. 
 ##### 3. At inference, we use inference.py.
 
-##### 4. To reproduce our result, simply run 'python3 inference_loaded.py' of [full_pretrained_project](https://drive.google.com/drive/folders/1VhFvOHDQcTV7_gJ5BhAqccG4otRWIdLY?usp=sharing) which will use the already trained models. In this version, we also show that with our joint inference schema, AWD_LSTM itself can work suffciiently well and replace the entity composite model. Also note that we used nltk tokenizer while annotationg the types in this version. So it is slightly different than our current release. 
+##### 4. To reproduce our result, simply run 'python3 inference_loaded.py' of [full_pretrained_project](https://drive.google.com/drive/folders/1VhFvOHDQcTV7_gJ5BhAqccG4otRWIdLY?usp=sharing) which will use the already trained models. In this version, we also show that with our joint inference schema, AWD_LSTM itself can work suffciiently well and replace the entity composite model. Also note that we used nltk tokenizer while annotationg the types in this version. So it is slightly different from our current release. 
 
 ##### 5. The corresponding data are in awd-lstm-lm/data folder in link shared above.
 
