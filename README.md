@@ -1,5 +1,4 @@
-## This is the codebase of the paper: Building Language Model for Text with Named Enitities, Rizwan et., al., (ACL, 18).
-
+## This is the codebase of the paper: Building Language Model for Text with Named Enitities, [Rizwan et., al., (ACL, 18)](https://arxiv.org/abs/1805.04836).
 ##### 1. Setting the [data path](https://github.com/rizwan09/awd-lstm-lm/tree/master/data) accordingly we use python3 main.py to train baseline AWD_LSTM model, and type model. [uncleaned data is here](https://github.com/rizwan09/awd-lstm-lm/tree/master/raw_data).
 ##### 2. To train entity composite model we use python3 main_ori_with_type.py. 
 ##### 3. At inference, we use inference.py.
@@ -15,11 +14,18 @@
 #### If you use this code or data or our results in your research, please cite:
 
 ```
-@inproceedings{PCRC18,
-author = {Md Rizwan Parvez and Saikat Chakraborty and Baishakhi Ray and Kai-Wei Chang},
-title = {Building Language Models for Text with Named Entities}, 
-booktitle = {ACL}, 
-year = {2018},
+@InProceedings{P18-1221,
+  author = 	"Parvez, Md Rizwan
+		and Chakraborty, Saikat
+		and Ray, Baishakhi
+		and Chang, Kai-Wei",
+  title = 	"Building Language Models for Text with Named Entities",
+  booktitle = 	"Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"2373--2383",
+  location = 	"Melbourne, Australia",
+  url = 	"http://aclweb.org/anthology/P18-1221"
 }
 ```
 
