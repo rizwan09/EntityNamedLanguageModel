@@ -12,7 +12,7 @@ import model
 from utils import batchify, get_batch, repackage_hidden
 
 parser = argparse.ArgumentParser(description='PyTorch PennTreeBank RNN/LSTM Language Model')
-parser.add_argument('--data', type=str, default='../data/recipe_ori',
+parser.add_argument('--data', type=str, default='./data/penn',
                     help='location of the data corpus')
 parser.add_argument('--model', type=str, default='LSTM',
                     help='type of recurrent net (LSTM, QRNN, GRU)')
